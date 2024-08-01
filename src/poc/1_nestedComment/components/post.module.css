@@ -1,0 +1,8 @@
+.post {
+  border: 1px solid teal;
+  padding: 10px;
+  margin-top: 10px;
+}
+.timestamp {
+  font-style: italic;
+}

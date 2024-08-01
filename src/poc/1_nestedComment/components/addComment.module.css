@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+}
+
+.container input {
+  flex-grow: 8;
+  padding:10px;
+  outline: none;
+}
+.container button {
+  flex-grow: 2;
+  padding: 8px 4px;
+}
