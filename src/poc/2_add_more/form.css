@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+    text-decoration: underline;
+  }
+  
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form button {
+    width: fit-content;
+    padding: 5px 10px;
+  }
+  
+  .form p {
+    margin-left: 10px;
+    text-decoration: underline;
+    font-size: large;
+    font-weight: 550;
+  }
+  
+  label {
+    margin-left: 10px;
+  }
+  label input{
+    margin-left: 10px;
+  }
+  
+  label:first-child {
+    margin-top: 10px;
+  }
+  
+  button{
+    margin-left:10px;
+  }
+  button[type='submit'] {
+    margin: 10px;
+  }
+  
