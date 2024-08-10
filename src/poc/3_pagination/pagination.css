@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2rem;
+}
+button {
+  padding: 5px 10px;
+}
+.active {
+  background-color: chocolate;
+}

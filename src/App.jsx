@@ -1,11 +1,13 @@
-import NestedComment from "./poc/1_nestedComment/NestedComment";
+// import NestedComment from "./poc/1_nestedComment/NestedComment";
 import "./App.css";
-import Form from "./poc/2_add_more/Form";
+import PaginationHome from "./poc/3_pagination/PaginationHome";
+// import Form from "./poc/2_add_more/Form";
 const App = () => {
   return (
     <div>
       {/* <NestedComment /> */}
-      <Form/>
+      {/* <Form/> */}
+      <PaginationHome/>
     </div>
   );
 };
